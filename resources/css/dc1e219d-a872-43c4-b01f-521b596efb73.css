@@ -1,0 +1,79 @@
+body {
+	width: 100%;
+	height: 85vh;
+    background-color: #232325;
+    -webkit- background-size: cover;
+    background-size: cover;
+}
+
+.main {
+	color: #fff;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+.footer {
+	background: #141414;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	text-align: center;
+}
+
+.textInputBoxBorder {
+	position: absolute;
+	bottom: -75px;
+	width: 100%;
+	width: 405px;
+	height: 75px;
+	border-radius: 20px;
+	background-image: linear-gradient(90deg, #8c2982 0%, #b33765 100%) !important;
+}
+
+.textInputBoxBody {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+	width: 400px;
+	height: 70px;
+	border-radius: 20px;
+	background-color: #2f2f31;
+	z-index: 2;
+	left: 2px;
+	top: 2px;
+}
+
+.textInputBox {
+	position: absolute;
+	top: 50%;
+	left: 37%;
+	transform: translate(-50%, -50%);
+}
+
+.enterText {
+	position: absolute;
+	color: #fff;
+	text-align: center;
+	width: 50%;
+	z-index: 3;
+}
+
+.inputColor {
+	position: absolute;
+	background-color: transparent;
+	border-color: transparent;
+	height: 50px;
+	width: 400px;
+	font-size: 20px;
+	color: #fff;
+	border: transparent;
+	outline: transparent;
+}
+
+.enterText {
+	position: absolute;
+	left: 3px%;
+	bottom: -7px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>⚡SuperGPT Deep Seek</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="resources\css\dc1e219d-a872-43c4-b01f-521b596efb73.css">
+    <style>
+        body {
+            font-family: Minecraft Rus, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #0066cc;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        main {
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="banner">
+            <h2>⚡Super GPT</h2>
+            <h1>Deep Seek</h1>
+        </div>
+    </div>
+
+<div class="footer">
+    <div class="textInputBox">
+        <div class="textInputBoxBody"></div>
+        <div class="textInputBoxBorder"></div>
+        <div class="enterText">
+             <form>
+                 <input class="inputColor" type="text" id="name" placeholder="Введите текст...">
+             </form>
+        </div>
+
+</div>
+</div>
+
+<script>
+        function downloadFile(filePath, fileName) {
+            const link = document.createElement('a');
+            link.href = filePath;
+            link.download = fileName;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+</script>
+
+</body>
+</html>
